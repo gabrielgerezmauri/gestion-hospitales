@@ -1,0 +1,5908 @@
+[{
+  "_id": "CONS-1",
+  "paciente_id": "PAC-1",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-2",
+  "paciente_id": "PAC-2",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-3",
+  "paciente_id": "PAC-3",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-4",
+  "paciente_id": "PAC-4",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-5",
+  "paciente_id": "PAC-5",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-6",
+  "paciente_id": "PAC-6",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-7",
+  "paciente_id": "PAC-7",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-8",
+  "paciente_id": "PAC-8",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-9",
+  "paciente_id": "PAC-9",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-10",
+  "paciente_id": "PAC-10",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-11",
+  "paciente_id": "PAC-11",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-12",
+  "paciente_id": "PAC-12",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-13",
+  "paciente_id": "PAC-13",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-14",
+  "paciente_id": "PAC-14",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-15",
+  "paciente_id": "PAC-15",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-16",
+  "paciente_id": "PAC-16",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-17",
+  "paciente_id": "PAC-17",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-18",
+  "paciente_id": "PAC-18",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-19",
+  "paciente_id": "PAC-19",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-20",
+  "paciente_id": "PAC-20",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-21",
+  "paciente_id": "PAC-21",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-22",
+  "paciente_id": "PAC-22",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-23",
+  "paciente_id": "PAC-23",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-24",
+  "paciente_id": "PAC-24",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-25",
+  "paciente_id": "PAC-25",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-26",
+  "paciente_id": "PAC-26",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-27",
+  "paciente_id": "PAC-27",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-28",
+  "paciente_id": "PAC-28",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-29",
+  "paciente_id": "PAC-29",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-30",
+  "paciente_id": "PAC-30",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-31",
+  "paciente_id": "PAC-31",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-32",
+  "paciente_id": "PAC-32",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-33",
+  "paciente_id": "PAC-33",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-34",
+  "paciente_id": "PAC-34",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-35",
+  "paciente_id": "PAC-35",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-36",
+  "paciente_id": "PAC-36",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-37",
+  "paciente_id": "PAC-37",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-38",
+  "paciente_id": "PAC-38",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-39",
+  "paciente_id": "PAC-39",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-40",
+  "paciente_id": "PAC-40",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-41",
+  "paciente_id": "PAC-41",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-42",
+  "paciente_id": "PAC-42",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-43",
+  "paciente_id": "PAC-43",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-44",
+  "paciente_id": "PAC-44",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-45",
+  "paciente_id": "PAC-45",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-46",
+  "paciente_id": "PAC-46",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-47",
+  "paciente_id": "PAC-47",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-48",
+  "paciente_id": "PAC-48",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-49",
+  "paciente_id": "PAC-49",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-50",
+  "paciente_id": "PAC-50",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-51",
+  "paciente_id": "PAC-1",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-52",
+  "paciente_id": "PAC-2",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-53",
+  "paciente_id": "PAC-3",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-54",
+  "paciente_id": "PAC-4",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-55",
+  "paciente_id": "PAC-5",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-56",
+  "paciente_id": "PAC-6",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-57",
+  "paciente_id": "PAC-7",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-58",
+  "paciente_id": "PAC-8",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-59",
+  "paciente_id": "PAC-9",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-60",
+  "paciente_id": "PAC-10",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-61",
+  "paciente_id": "PAC-11",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-62",
+  "paciente_id": "PAC-12",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-63",
+  "paciente_id": "PAC-13",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-64",
+  "paciente_id": "PAC-14",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-65",
+  "paciente_id": "PAC-15",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-66",
+  "paciente_id": "PAC-16",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-67",
+  "paciente_id": "PAC-17",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-68",
+  "paciente_id": "PAC-18",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-69",
+  "paciente_id": "PAC-19",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-70",
+  "paciente_id": "PAC-20",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-71",
+  "paciente_id": "PAC-21",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-72",
+  "paciente_id": "PAC-22",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-73",
+  "paciente_id": "PAC-23",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-74",
+  "paciente_id": "PAC-24",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-75",
+  "paciente_id": "PAC-25",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-76",
+  "paciente_id": "PAC-26",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-77",
+  "paciente_id": "PAC-27",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-78",
+  "paciente_id": "PAC-28",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-79",
+  "paciente_id": "PAC-29",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-80",
+  "paciente_id": "PAC-30",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-81",
+  "paciente_id": "PAC-31",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-82",
+  "paciente_id": "PAC-32",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-83",
+  "paciente_id": "PAC-33",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-84",
+  "paciente_id": "PAC-34",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-85",
+  "paciente_id": "PAC-35",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-86",
+  "paciente_id": "PAC-36",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-87",
+  "paciente_id": "PAC-37",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-88",
+  "paciente_id": "PAC-38",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-89",
+  "paciente_id": "PAC-39",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-90",
+  "paciente_id": "PAC-40",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-91",
+  "paciente_id": "PAC-41",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-92",
+  "paciente_id": "PAC-42",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-93",
+  "paciente_id": "PAC-43",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-94",
+  "paciente_id": "PAC-44",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-95",
+  "paciente_id": "PAC-45",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-96",
+  "paciente_id": "PAC-46",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-97",
+  "paciente_id": "PAC-47",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-98",
+  "paciente_id": "PAC-48",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-99",
+  "paciente_id": "PAC-49",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-100",
+  "paciente_id": "PAC-50",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-101",
+  "paciente_id": "PAC-1",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-102",
+  "paciente_id": "PAC-2",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-103",
+  "paciente_id": "PAC-3",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-104",
+  "paciente_id": "PAC-4",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-105",
+  "paciente_id": "PAC-5",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-106",
+  "paciente_id": "PAC-6",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-107",
+  "paciente_id": "PAC-7",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-108",
+  "paciente_id": "PAC-8",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-109",
+  "paciente_id": "PAC-9",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-110",
+  "paciente_id": "PAC-10",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-111",
+  "paciente_id": "PAC-11",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-112",
+  "paciente_id": "PAC-12",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-113",
+  "paciente_id": "PAC-13",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-114",
+  "paciente_id": "PAC-14",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-115",
+  "paciente_id": "PAC-15",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-116",
+  "paciente_id": "PAC-16",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-117",
+  "paciente_id": "PAC-17",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-118",
+  "paciente_id": "PAC-18",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-119",
+  "paciente_id": "PAC-19",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-120",
+  "paciente_id": "PAC-20",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-121",
+  "paciente_id": "PAC-21",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-122",
+  "paciente_id": "PAC-22",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-123",
+  "paciente_id": "PAC-23",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-124",
+  "paciente_id": "PAC-24",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-125",
+  "paciente_id": "PAC-25",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-126",
+  "paciente_id": "PAC-26",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-127",
+  "paciente_id": "PAC-27",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-128",
+  "paciente_id": "PAC-28",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-129",
+  "paciente_id": "PAC-29",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-130",
+  "paciente_id": "PAC-30",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-131",
+  "paciente_id": "PAC-31",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-132",
+  "paciente_id": "PAC-32",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-133",
+  "paciente_id": "PAC-33",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-134",
+  "paciente_id": "PAC-34",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-135",
+  "paciente_id": "PAC-35",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-136",
+  "paciente_id": "PAC-36",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-137",
+  "paciente_id": "PAC-37",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-138",
+  "paciente_id": "PAC-38",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-139",
+  "paciente_id": "PAC-39",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-140",
+  "paciente_id": "PAC-40",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-141",
+  "paciente_id": "PAC-41",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-142",
+  "paciente_id": "PAC-42",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-143",
+  "paciente_id": "PAC-43",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-144",
+  "paciente_id": "PAC-44",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-145",
+  "paciente_id": "PAC-45",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-146",
+  "paciente_id": "PAC-46",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-147",
+  "paciente_id": "PAC-47",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-148",
+  "paciente_id": "PAC-48",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-149",
+  "paciente_id": "PAC-49",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-150",
+  "paciente_id": "PAC-50",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-151",
+  "paciente_id": "PAC-1",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-152",
+  "paciente_id": "PAC-2",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-153",
+  "paciente_id": "PAC-3",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-154",
+  "paciente_id": "PAC-4",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-155",
+  "paciente_id": "PAC-5",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-156",
+  "paciente_id": "PAC-6",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-157",
+  "paciente_id": "PAC-7",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-158",
+  "paciente_id": "PAC-8",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-159",
+  "paciente_id": "PAC-9",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-160",
+  "paciente_id": "PAC-10",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-161",
+  "paciente_id": "PAC-11",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-162",
+  "paciente_id": "PAC-12",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-163",
+  "paciente_id": "PAC-13",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-164",
+  "paciente_id": "PAC-14",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-165",
+  "paciente_id": "PAC-15",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-166",
+  "paciente_id": "PAC-16",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-167",
+  "paciente_id": "PAC-17",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-168",
+  "paciente_id": "PAC-18",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-169",
+  "paciente_id": "PAC-19",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-170",
+  "paciente_id": "PAC-20",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-171",
+  "paciente_id": "PAC-21",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-172",
+  "paciente_id": "PAC-22",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-173",
+  "paciente_id": "PAC-23",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-05T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-174",
+  "paciente_id": "PAC-24",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-06T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-175",
+  "paciente_id": "PAC-25",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-07T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-176",
+  "paciente_id": "PAC-26",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-08T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-177",
+  "paciente_id": "PAC-27",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-09T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-178",
+  "paciente_id": "PAC-28",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-10T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-179",
+  "paciente_id": "PAC-29",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-11T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-180",
+  "paciente_id": "PAC-30",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-12T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-181",
+  "paciente_id": "PAC-31",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-13T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-182",
+  "paciente_id": "PAC-32",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-14T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-183",
+  "paciente_id": "PAC-33",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-15T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-184",
+  "paciente_id": "PAC-34",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-16T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-185",
+  "paciente_id": "PAC-35",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-17T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-186",
+  "paciente_id": "PAC-36",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-18T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-187",
+  "paciente_id": "PAC-37",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-19T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-188",
+  "paciente_id": "PAC-38",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-20T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-189",
+  "paciente_id": "PAC-39",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-21T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-190",
+  "paciente_id": "PAC-40",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-22T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-191",
+  "paciente_id": "PAC-41",
+  "medico_id": "MED-1",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-23T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Omeprazol",
+        "principio_activo": "Omeprazol",
+        "contraindicaciones": []
+      },
+      "dosis": "20mg",
+      "frecuencia": "Cada 24 horas en ayunas",
+      "duracion_dias": 14
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-192",
+  "paciente_id": "PAC-42",
+  "medico_id": "MED-2",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-24T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-193",
+  "paciente_id": "PAC-43",
+  "medico_id": "MED-3",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-25T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-194",
+  "paciente_id": "PAC-44",
+  "medico_id": "MED-4",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-26T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-195",
+  "paciente_id": "PAC-45",
+  "medico_id": "MED-5",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-27T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Migraña",
+    "codigo": "G43.9"
+  },
+  "tratamiento_indicado": "Hidratación y dieta estricta",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Paracetamol",
+        "principio_activo": "Paracetamol",
+        "contraindicaciones": [
+          "Insuficiencia hepática"
+        ]
+      },
+      "dosis": "1g",
+      "frecuencia": "Cada 6 horas",
+      "duracion_dias": 3
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-196",
+  "paciente_id": "PAC-46",
+  "medico_id": "MED-6",
+  "hospital_id": "HOSP-1",
+  "fecha": {
+    "$date": "2026-03-28T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Esguince de tobillo",
+    "codigo": "S93.4"
+  },
+  "tratamiento_indicado": "Tratamiento antibiótico de urgencia",
+  "estudios_solicitados": [
+    "Radiografía",
+    "Ecografía"
+  ],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Diclofenac",
+        "principio_activo": "Diclofenac sódico",
+        "contraindicaciones": [
+          "Hipertensión severa"
+        ]
+      },
+      "dosis": "75mg",
+      "frecuencia": "Cada 12 horas",
+      "duracion_dias": 5
+    }
+  ]
+},
+{
+  "_id": "CONS-197",
+  "paciente_id": "PAC-47",
+  "medico_id": "MED-7",
+  "hospital_id": "HOSP-2",
+  "fecha": {
+    "$date": "2026-03-01T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Gastroenteritis",
+    "codigo": "A09.9"
+  },
+  "tratamiento_indicado": "Inmovilización, vendaje y uso de hielo",
+  "estudios_solicitados": [
+    "Laboratorio de sangre completo"
+  ],
+  "prescripciones": []
+},
+{
+  "_id": "CONS-198",
+  "paciente_id": "PAC-48",
+  "medico_id": "MED-8",
+  "hospital_id": "HOSP-3",
+  "fecha": {
+    "$date": "2026-03-02T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Lumbalgia",
+    "codigo": "M54.5"
+  },
+  "tratamiento_indicado": "Control evolutivo por consultorio externo",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Loratadina",
+        "principio_activo": "Loratadina",
+        "contraindicaciones": [
+          "Embarazo"
+        ]
+      },
+      "dosis": "10mg",
+      "frecuencia": "Cada 24 horas",
+      "duracion_dias": 10
+    }
+  ]
+},
+{
+  "_id": "CONS-199",
+  "paciente_id": "PAC-49",
+  "medico_id": "MED-9",
+  "hospital_id": "HOSP-4",
+  "fecha": {
+    "$date": "2026-03-03T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Faringitis aguda",
+    "codigo": "J02.9"
+  },
+  "tratamiento_indicado": "Reposo preventivo y control en 48hs",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Ibuprofeno",
+        "principio_activo": "Ibuprofeno",
+        "contraindicaciones": [
+          "Úlcera gástrica"
+        ]
+      },
+      "dosis": "600mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 5
+    },
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+},
+{
+  "_id": "CONS-200",
+  "paciente_id": "PAC-50",
+  "medico_id": "MED-10",
+  "hospital_id": "HOSP-5",
+  "fecha": {
+    "$date": "2026-03-04T10:00:00Z"
+  },
+  "diagnostico": {
+    "texto": "Hipertensión esencial",
+    "codigo": "I10"
+  },
+  "tratamiento_indicado": "Kinesiología y rehabilitación física",
+  "estudios_solicitados": [],
+  "prescripciones": [
+    {
+      "medicamento": {
+        "nombre_generico": "Amoxicilina",
+        "principio_activo": "Amoxicilina trihidrato",
+        "contraindicaciones": [
+          "Alergia a Penicilina"
+        ]
+      },
+      "dosis": "500mg",
+      "frecuencia": "Cada 8 horas",
+      "duracion_dias": 7
+    }
+  ]
+}]

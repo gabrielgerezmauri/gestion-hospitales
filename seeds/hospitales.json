@@ -1,0 +1,65 @@
+[{
+  "_id": "HOSP-1",
+  "nombre": "Hospital Garrahan",
+  "zona": "CABA Sur",
+  "direccion": "Combate de los Pozos 1881",
+  "especialidades_disponibles": [
+    "Pediatría",
+    "Cirugía",
+    "Oncología"
+  ],
+  "camas_totales": 500,
+  "camas_disponibles": 45
+},
+{
+  "_id": "HOSP-2",
+  "nombre": "Hospital Fernández",
+  "zona": "CABA Norte",
+  "direccion": "Cerviño 3356",
+  "especialidades_disponibles": [
+    "Traumatología",
+    "Cardiología",
+    "Guardia general"
+  ],
+  "camas_totales": 350,
+  "camas_disponibles": 12
+},
+{
+  "_id": "HOSP-3",
+  "nombre": "Hospital Argerich",
+  "zona": "CABA Este",
+  "direccion": "Pi y Margall 750",
+  "especialidades_disponibles": [
+    "Cardiología",
+    "Trasplantes",
+    "Guardia general"
+  ],
+  "camas_totales": 400,
+  "camas_disponibles": 30
+},
+{
+  "_id": "HOSP-4",
+  "nombre": "Hospital Santojanni",
+  "zona": "CABA Oeste",
+  "direccion": "Pilar 950",
+  "especialidades_disponibles": [
+    "Maternidad",
+    "Traumatología",
+    "Neurología"
+  ],
+  "camas_totales": 300,
+  "camas_disponibles": 5
+},
+{
+  "_id": "HOSP-5",
+  "nombre": "Hospital Pirovano",
+  "zona": "CABA Norte",
+  "direccion": "Monroe 3555",
+  "especialidades_disponibles": [
+    "Salud Mental",
+    "Oncología",
+    "Guardia general"
+  ],
+  "camas_totales": 280,
+  "camas_disponibles": 22
+}]

@@ -1,0 +1,598 @@
+[{
+  "_id": "PAC-1",
+  "dni": "20000001",
+  "nombre": "Juan Pérez",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-314409600000"
+    }
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [
+    "Penicilina"
+  ],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-2",
+  "dni": "20000002",
+  "nombre": "María Gómez",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-279676800000"
+    }
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-3",
+  "dni": "20000003",
+  "nombre": "Pedro López",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-246585600000"
+    }
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-4",
+  "dni": "20000004",
+  "nombre": "Ana Díaz",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-212803200000"
+    }
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-5",
+  "dni": "20000005",
+  "nombre": "Luis Ruiz",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-177984000000"
+    }
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [
+    "Ibuprofeno"
+  ],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-6",
+  "dni": "20000006",
+  "nombre": "Elena Alonso",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-143251200000"
+    }
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-7",
+  "dni": "20000007",
+  "nombre": "Jorge Torres",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-108777600000"
+    }
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-8",
+  "dni": "20000008",
+  "nombre": "Marta Suárez",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-73872000000"
+    }
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [
+    "Látex"
+  ],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-9",
+  "dni": "20000009",
+  "nombre": "Pablo Giménez",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-40953600000"
+    }
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-10",
+  "dni": "20000010",
+  "nombre": "Clara Silva",
+  "fecha_nacimiento": {
+    "$date": {
+      "$numberLong": "-7862400000"
+    }
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-11",
+  "dni": "20000011",
+  "nombre": "Diego Romero",
+  "fecha_nacimiento": {
+    "$date": "1970-11-11T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "Ninguna"
+},
+{
+  "_id": "PAC-12",
+  "dni": "20000012",
+  "nombre": "Laura Sosa",
+  "fecha_nacimiento": {
+    "$date": "1971-12-25T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [
+    "Aspirina"
+  ],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-13",
+  "dni": "20000013",
+  "nombre": "Carlos Fernández",
+  "fecha_nacimiento": {
+    "$date": "1972-01-08T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-14",
+  "dni": "20000014",
+  "nombre": "Sofía Sánchez",
+  "fecha_nacimiento": {
+    "$date": "1973-02-14T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-15",
+  "dni": "20000015",
+  "nombre": "Martín García",
+  "fecha_nacimiento": {
+    "$date": "1974-03-21T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [
+    "Penicilina"
+  ],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-16",
+  "dni": "20000016",
+  "nombre": "Lucía Rodríguez",
+  "fecha_nacimiento": {
+    "$date": "1975-04-09T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-17",
+  "dni": "20000017",
+  "nombre": "Facundo Álvarez",
+  "fecha_nacimiento": {
+    "$date": "1976-05-16T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "Ninguna"
+},
+{
+  "_id": "PAC-18",
+  "dni": "20000018",
+  "nombre": "Florencia Vázquez",
+  "fecha_nacimiento": {
+    "$date": "1977-06-27T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-19",
+  "dni": "20000019",
+  "nombre": "Roberto González",
+  "fecha_nacimiento": {
+    "$date": "1978-07-03T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [
+    "Amoxicilina"
+  ],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-20",
+  "dni": "20000020",
+  "nombre": "Silvia Castro",
+  "fecha_nacimiento": {
+    "$date": "1979-08-19T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-21",
+  "dni": "20000021",
+  "nombre": "Mario Pérez",
+  "fecha_nacimiento": {
+    "$date": "1980-09-07T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-22",
+  "dni": "20000022",
+  "nombre": "Carmen Gómez",
+  "fecha_nacimiento": {
+    "$date": "1981-10-23T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-23",
+  "dni": "20000023",
+  "nombre": "Héctor López",
+  "fecha_nacimiento": {
+    "$date": "1982-11-12T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [
+    "Diclofenac"
+  ],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-24",
+  "dni": "20000024",
+  "nombre": "Teresa Díaz",
+  "fecha_nacimiento": {
+    "$date": "1983-12-01T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-25",
+  "dni": "20000025",
+  "nombre": "Gustavo Ruiz",
+  "fecha_nacimiento": {
+    "$date": "1984-01-28T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-26",
+  "dni": "20000026",
+  "nombre": "Beatriz Alonso",
+  "fecha_nacimiento": {
+    "$date": "1985-02-15T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-27",
+  "dni": "20000027",
+  "nombre": "Raúl Torres",
+  "fecha_nacimiento": {
+    "$date": "1986-03-04T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [
+    "Iodopovidona"
+  ],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-28",
+  "dni": "20000028",
+  "nombre": "Norma Suárez",
+  "fecha_nacimiento": {
+    "$date": "1987-04-17T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "Ninguna"
+},
+{
+  "_id": "PAC-29",
+  "dni": "20000029",
+  "nombre": "Oscar Giménez",
+  "fecha_nacimiento": {
+    "$date": "1988-05-09T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-30",
+  "dni": "20000030",
+  "nombre": "Patricia Silva",
+  "fecha_nacimiento": {
+    "$date": "1989-06-21T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [
+    "Penicilina"
+  ],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-31",
+  "dni": "20000031",
+  "nombre": "Hugo Romero",
+  "fecha_nacimiento": {
+    "$date": "1990-07-11T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-32",
+  "dni": "20000032",
+  "nombre": "Alicia Sosa",
+  "fecha_nacimiento": {
+    "$date": "1991-08-05T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-33",
+  "dni": "20000033",
+  "nombre": "Julio Fernández",
+  "fecha_nacimiento": {
+    "$date": "1992-09-29T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-34",
+  "dni": "20000034",
+  "nombre": "Rosa Sánchez",
+  "fecha_nacimiento": {
+    "$date": "1993-10-18T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [
+    "Polen"
+  ],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-35",
+  "dni": "20000035",
+  "nombre": "Víctor García",
+  "fecha_nacimiento": {
+    "$date": "1994-11-02T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-36",
+  "dni": "20000036",
+  "nombre": "Graciela Rodríguez",
+  "fecha_nacimiento": {
+    "$date": "1995-12-14T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-37",
+  "dni": "20000037",
+  "nombre": "Eduardo Álvarez",
+  "fecha_nacimiento": {
+    "$date": "1996-01-26T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-38",
+  "dni": "20000038",
+  "nombre": "Mónica Vázquez",
+  "fecha_nacimiento": {
+    "$date": "1997-02-08T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [
+    "Paracetamol"
+  ],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-39",
+  "dni": "20000039",
+  "nombre": "Ricardo González",
+  "fecha_nacimiento": {
+    "$date": "1998-03-22T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "Ninguna"
+},
+{
+  "_id": "PAC-40",
+  "dni": "20000040",
+  "nombre": "Susana Castro",
+  "fecha_nacimiento": {
+    "$date": "1999-04-13T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-41",
+  "dni": "20000041",
+  "nombre": "Fernando Pérez",
+  "fecha_nacimiento": {
+    "$date": "2000-05-06T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-42",
+  "dni": "20000042",
+  "nombre": "Verónica Gómez",
+  "fecha_nacimiento": {
+    "$date": "2001-06-24T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [
+    "Mani"
+  ],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-43",
+  "dni": "20000043",
+  "nombre": "Javier López",
+  "fecha_nacimiento": {
+    "$date": "2002-07-16T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-44",
+  "dni": "20000044",
+  "nombre": "Silvana Díaz",
+  "fecha_nacimiento": {
+    "$date": "2003-08-09T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-45",
+  "dni": "20000045",
+  "nombre": "Gabriel Ruiz",
+  "fecha_nacimiento": {
+    "$date": "2004-09-30T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [],
+  "obra_social": "OSDE"
+},
+{
+  "_id": "PAC-46",
+  "dni": "20000046",
+  "nombre": "Daniela Alonso",
+  "fecha_nacimiento": {
+    "$date": "2005-10-19T00:00:00Z"
+  },
+  "grupo_sanguineo": "A+",
+  "alergias_conocidas": [
+    "Polvo"
+  ],
+  "obra_social": "Swiss Medical"
+},
+{
+  "_id": "PAC-47",
+  "dni": "20000047",
+  "nombre": "Marcelo Torres",
+  "fecha_nacimiento": {
+    "$date": "2006-11-27T00:00:00Z"
+  },
+  "grupo_sanguineo": "O+",
+  "alergias_conocidas": [],
+  "obra_social": "IOMA"
+},
+{
+  "_id": "PAC-48",
+  "dni": "20000048",
+  "nombre": "Mariana Suárez",
+  "fecha_nacimiento": {
+    "$date": "2007-12-05T00:00:00Z"
+  },
+  "grupo_sanguineo": "B+",
+  "alergias_conocidas": [],
+  "obra_social": "PAMI"
+},
+{
+  "_id": "PAC-49",
+  "dni": "20000049",
+  "nombre": "Hernán Giménez",
+  "fecha_nacimiento": {
+    "$date": "2008-01-11T00:00:00Z"
+  },
+  "grupo_sanguineo": "AB+",
+  "alergias_conocidas": [],
+  "obra_social": "Galeno"
+},
+{
+  "_id": "PAC-50",
+  "dni": "20000050",
+  "nombre": "Natalia Silva",
+  "fecha_nacimiento": {
+    "$date": "2009-02-28T00:00:00Z"
+  },
+  "grupo_sanguineo": "O-",
+  "alergias_conocidas": [
+    "Penicilina"
+  ],
+  "obra_social": "Ninguna"
+}]

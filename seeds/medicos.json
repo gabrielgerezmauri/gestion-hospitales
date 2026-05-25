@@ -1,0 +1,70 @@
+[{
+  "_id": "MED-1",
+  "nombre": "Dr. Roberto Favaloro",
+  "matricula": "MN-10001",
+  "especialidad": "Cardiología",
+  "hospital_base_id": "HOSP-1"
+},
+{
+  "_id": "MED-2",
+  "nombre": "Dra. Laura Gómez",
+  "matricula": "MN-10002",
+  "especialidad": "Pediatría",
+  "hospital_base_id": "HOSP-2"
+},
+{
+  "_id": "MED-3",
+  "nombre": "Dr. Carlos Rodríguez",
+  "matricula": "MN-10003",
+  "especialidad": "Traumatología",
+  "hospital_base_id": "HOSP-3"
+},
+{
+  "_id": "MED-4",
+  "nombre": "Dra. Sofía López",
+  "matricula": "MN-10004",
+  "especialidad": "Neurología",
+  "hospital_base_id": "HOSP-4"
+},
+{
+  "_id": "MED-5",
+  "nombre": "Dr. Diego Martínez",
+  "matricula": "MN-10005",
+  "especialidad": "Guardia general",
+  "hospital_base_id": "HOSP-5"
+},
+{
+  "_id": "MED-6",
+  "nombre": "Dra. Ana Fernández",
+  "matricula": "MN-10006",
+  "especialidad": "Cardiología",
+  "hospital_base_id": "HOSP-1"
+},
+{
+  "_id": "MED-7",
+  "nombre": "Dr. Martín García",
+  "matricula": "MN-10007",
+  "especialidad": "Pediatría",
+  "hospital_base_id": "HOSP-2"
+},
+{
+  "_id": "MED-8",
+  "nombre": "Dra. Lucía Sánchez",
+  "matricula": "MN-10008",
+  "especialidad": "Traumatología",
+  "hospital_base_id": "HOSP-3"
+},
+{
+  "_id": "MED-9",
+  "nombre": "Dr. Facundo Romero",
+  "matricula": "MN-10009",
+  "especialidad": "Neurología",
+  "hospital_base_id": "HOSP-4"
+},
+{
+  "_id": "MED-10",
+  "nombre": "Dra. Florencia Sosa",
+  "matricula": "MN-10010",
+  "especialidad": "Guardia general",
+  "hospital_base_id": "HOSP-5"
+}]

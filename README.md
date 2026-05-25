@@ -37,10 +37,20 @@ Ejecutá el siguiente comando para instalar los drivers oficiales NoSQL y el fra
 
 pip install -r requirements.txt
 
-Paso 3: Ejecutar la Aplicación Backend
+## 💾 Paso 3: Carga Inicial de Datos (Seeding Políglota)
+
+El proyecto cuenta con un script automatizado para poblar las bases de datos y garantizar que todos los integrantes del equipo trabajemos con los mismos datos de prueba e identificadores (IDs).
+
+Para ejecutarlo, corré el siguiente comando en tu terminal:
+
+python seed.py
+
+## Paso 4: Ejecutar la Aplicación Backend##
 Para levantar el servidor de desarrollo con recarga automática ante cambios de código, ejecutá:
 
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 
 La API se levantará en: http://localhost:8000
+
+Para ver el swagger y ejecutar los endpoints entrar a: http://localhost:8000/docs
 ```bash

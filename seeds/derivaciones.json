@@ -1,0 +1,260 @@
+[{
+  "_id": "DERIV-1",
+  "paciente_origen_id": "PAC-1",
+  "medico_derivante_id": "MED-1",
+  "medico_receptor_id": "MED-4",
+  "hospital_destino_id": "HOSP-3",
+  "especialidad_destino": "Oncología",
+  "motivo": "Requiere evaluación por especialista de mayor complejidad",
+  "urgencia": 1,
+  "fecha_derivacion": {
+    "$date": "2026-04-10T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-2",
+  "paciente_origen_id": "PAC-2",
+  "medico_derivante_id": "MED-2",
+  "medico_receptor_id": "MED-5",
+  "hospital_destino_id": "HOSP-4",
+  "especialidad_destino": "Cardiología",
+  "motivo": "Solicitud de estudios por imágenes con equipo específico",
+  "urgencia": 2,
+  "fecha_derivacion": {
+    "$date": "2026-04-11T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-3",
+  "paciente_origen_id": "PAC-3",
+  "medico_derivante_id": "MED-3",
+  "medico_receptor_id": "MED-6",
+  "hospital_destino_id": "HOSP-5",
+  "especialidad_destino": "Neurología",
+  "motivo": "Falta de disponibilidad de camas en terapia intensiva",
+  "urgencia": 3,
+  "fecha_derivacion": {
+    "$date": "2026-04-12T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-4",
+  "paciente_origen_id": "PAC-4",
+  "medico_derivante_id": "MED-4",
+  "medico_receptor_id": "MED-7",
+  "hospital_destino_id": "HOSP-1",
+  "especialidad_destino": "Traumatología",
+  "motivo": "Interconsulta para confirmación de diagnóstico crónico",
+  "urgencia": 4,
+  "fecha_derivacion": {
+    "$date": "2026-04-13T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-5",
+  "paciente_origen_id": "PAC-5",
+  "medico_derivante_id": "MED-5",
+  "medico_receptor_id": "MED-8",
+  "hospital_destino_id": "HOSP-2",
+  "especialidad_destino": "Oncología",
+  "motivo": "Traslado por requerimiento quirúrgico de urgencia",
+  "urgencia": 5,
+  "fecha_derivacion": {
+    "$date": "2026-04-14T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-6",
+  "paciente_origen_id": "PAC-6",
+  "medico_derivante_id": "MED-6",
+  "medico_receptor_id": "MED-9",
+  "hospital_destino_id": "HOSP-3",
+  "especialidad_destino": "Cardiología",
+  "motivo": "Requiere evaluación por especialista de mayor complejidad",
+  "urgencia": 1,
+  "fecha_derivacion": {
+    "$date": "2026-04-15T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-7",
+  "paciente_origen_id": "PAC-7",
+  "medico_derivante_id": "MED-7",
+  "medico_receptor_id": "MED-10",
+  "hospital_destino_id": "HOSP-4",
+  "especialidad_destino": "Neurología",
+  "motivo": "Solicitud de estudios por imágenes con equipo específico",
+  "urgencia": 2,
+  "fecha_derivacion": {
+    "$date": "2026-04-16T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-8",
+  "paciente_origen_id": "PAC-8",
+  "medico_derivante_id": "MED-8",
+  "medico_receptor_id": "MED-1",
+  "hospital_destino_id": "HOSP-5",
+  "especialidad_destino": "Traumatología",
+  "motivo": "Falta de disponibilidad de camas en terapia intensiva",
+  "urgencia": 3,
+  "fecha_derivacion": {
+    "$date": "2026-04-17T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-9",
+  "paciente_origen_id": "PAC-9",
+  "medico_derivante_id": "MED-9",
+  "medico_receptor_id": "MED-2",
+  "hospital_destino_id": "HOSP-1",
+  "especialidad_destino": "Oncología",
+  "motivo": "Interconsulta para confirmación de diagnóstico crónico",
+  "urgencia": 4,
+  "fecha_derivacion": {
+    "$date": "2026-04-18T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-10",
+  "paciente_origen_id": "PAC-10",
+  "medico_derivante_id": "MED-10",
+  "medico_receptor_id": "MED-3",
+  "hospital_destino_id": "HOSP-2",
+  "especialidad_destino": "Cardiología",
+  "motivo": "Traslado por requerimiento quirúrgico de urgencia",
+  "urgencia": 5,
+  "fecha_derivacion": {
+    "$date": "2026-04-19T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-11",
+  "paciente_origen_id": "PAC-11",
+  "medico_derivante_id": "MED-1",
+  "medico_receptor_id": "MED-4",
+  "hospital_destino_id": "HOSP-3",
+  "especialidad_destino": "Neurología",
+  "motivo": "Requiere evaluación por especialista de mayor complejidad",
+  "urgencia": 1,
+  "fecha_derivacion": {
+    "$date": "2026-04-10T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-12",
+  "paciente_origen_id": "PAC-12",
+  "medico_derivante_id": "MED-2",
+  "medico_receptor_id": "MED-5",
+  "hospital_destino_id": "HOSP-4",
+  "especialidad_destino": "Traumatología",
+  "motivo": "Solicitud de estudios por imágenes con equipo específico",
+  "urgencia": 2,
+  "fecha_derivacion": {
+    "$date": "2026-04-11T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-13",
+  "paciente_origen_id": "PAC-13",
+  "medico_derivante_id": "MED-3",
+  "medico_receptor_id": "MED-6",
+  "hospital_destino_id": "HOSP-5",
+  "especialidad_destino": "Oncología",
+  "motivo": "Falta de disponibilidad de camas en terapia intensiva",
+  "urgencia": 3,
+  "fecha_derivacion": {
+    "$date": "2026-04-12T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-14",
+  "paciente_origen_id": "PAC-14",
+  "medico_derivante_id": "MED-4",
+  "medico_receptor_id": "MED-7",
+  "hospital_destino_id": "HOSP-1",
+  "especialidad_destino": "Cardiología",
+  "motivo": "Interconsulta para confirmación de diagnóstico crónico",
+  "urgencia": 4,
+  "fecha_derivacion": {
+    "$date": "2026-04-13T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-15",
+  "paciente_origen_id": "PAC-15",
+  "medico_derivante_id": "MED-5",
+  "medico_receptor_id": "MED-8",
+  "hospital_destino_id": "HOSP-2",
+  "especialidad_destino": "Neurología",
+  "motivo": "Traslado por requerimiento quirúrgico de urgencia",
+  "urgencia": 5,
+  "fecha_derivacion": {
+    "$date": "2026-04-14T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-16",
+  "paciente_origen_id": "PAC-16",
+  "medico_derivante_id": "MED-6",
+  "medico_receptor_id": "MED-9",
+  "hospital_destino_id": "HOSP-3",
+  "especialidad_destino": "Traumatología",
+  "motivo": "Requiere evaluación por especialista de mayor complejidad",
+  "urgencia": 1,
+  "fecha_derivacion": {
+    "$date": "2026-04-15T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-17",
+  "paciente_origen_id": "PAC-17",
+  "medico_derivante_id": "MED-7",
+  "medico_receptor_id": "MED-10",
+  "hospital_destino_id": "HOSP-4",
+  "especialidad_destino": "Oncología",
+  "motivo": "Solicitud de estudios por imágenes con equipo específico",
+  "urgencia": 2,
+  "fecha_derivacion": {
+    "$date": "2026-04-16T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-18",
+  "paciente_origen_id": "PAC-18",
+  "medico_derivante_id": "MED-8",
+  "medico_receptor_id": "MED-1",
+  "hospital_destino_id": "HOSP-5",
+  "especialidad_destino": "Cardiología",
+  "motivo": "Falta de disponibilidad de camas en terapia intensiva",
+  "urgencia": 3,
+  "fecha_derivacion": {
+    "$date": "2026-04-17T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-19",
+  "paciente_origen_id": "PAC-19",
+  "medico_derivante_id": "MED-9",
+  "medico_receptor_id": "MED-2",
+  "hospital_destino_id": "HOSP-1",
+  "especialidad_destino": "Neurología",
+  "motivo": "Interconsulta para confirmación de diagnóstico crónico",
+  "urgencia": 4,
+  "fecha_derivacion": {
+    "$date": "2026-04-18T09:30:00Z"
+  }
+},
+{
+  "_id": "DERIV-20",
+  "paciente_origen_id": "PAC-20",
+  "medico_derivante_id": "MED-10",
+  "medico_receptor_id": "MED-3",
+  "hospital_destino_id": "HOSP-2",
+  "especialidad_destino": "Traumatología",
+  "motivo": "Traslado por requerimiento quirúrgico de urgencia",
+  "urgencia": 5,
+  "fecha_derivacion": {
+    "$date": "2026-04-19T09:30:00Z"
+  }
+}]
