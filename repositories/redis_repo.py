@@ -9,66 +9,150 @@ def _get_redis():
     return db_redis
 
 
-def encolar_paciente_derivado(paciente_id, hospital_destino_id, especialidad_destino):
-    try:
-        r = _get_redis()
+# ──────────────────────────────────────────────
+# Gestión de Camas (HASH)
+# ──────────────────────────────────────────────
 
-        camas_key = f"camas:{hospital_destino_id}:{especialidad_destino}"
-        camas_disponibles = r.get(camas_key)
-        if camas_disponibles is not None and int(camas_disponibles) <= 0:
-            raise RuntimeError(f"No hay camas disponibles en {hospital_destino_id} para {especialidad_destino}")
+def ingresar_paciente_cama(hospital_id: str, paciente_id: str) -> dict:
+    """
+    Busca una cama disponible en el hospital y actualiza su estado a 'ocupada'.
 
-        cola_key = f"cola_derivaciones:{hospital_destino_id}"
-        r.lpush(cola_key, json.dumps({
-            "paciente_id": paciente_id,
-            "especialidad_destino": especialidad_destino,
-            "timestamp": datetime.now(timezone.utc).isoformat()
-        }))
+    1. Obtener todas las camas del hospital haciendo SCAN 0 MATCH cama:{hospital_id}:*.
+    2. Iterar sobre las claves obtenidas, hacer HGETALL c/u y filtrar
+       aquellas cuyo campo "estado" sea "disponible".
+    3. De la primera cama disponible, hacer HSET para setear:
+         - estado -> "ocupada"
+         - paciente_id -> paciente_id
+         - fecha_ingreso -> datetime.now(timezone.utc).isoformat()
+    4. Si no hay camas disponibles, lanzar RuntimeError("No hay camas disponibles").
 
-        if camas_disponibles is not None:
-            r.decr(camas_key)
-
-        return {"mensaje": "Paciente encolado correctamente en Redis"}
-    except ConnectionError:
-        raise
-    except RuntimeError:
-        raise
-    except Exception as e:
-        raise RuntimeError(f"Error al encolar paciente derivado en Redis: {str(e)}") from e
+    Llamar a _get_redis(). Retornar {"cama": numero_cama, "sector": sector}.
+    """
+    raise NotImplementedError()
 
 
-def quitar_paciente_cola(paciente_id, hospital_destino_id):
-    try:
-        r = _get_redis()
-        cola_key = f"cola_derivaciones:{hospital_destino_id}"
-        pacientes = r.lrange(cola_key, 0, -1)
-        for p in pacientes:
-            data = json.loads(p)
-            if data.get("paciente_id") == paciente_id:
-                r.lrem(cola_key, 1, p)
-                break
-        return {"mensaje": "Paciente quitado de la cola en Redis"}
-    except ConnectionError:
-        raise
-    except Exception as e:
-        raise RuntimeError(f"Error al quitar paciente de cola en Redis: {str(e)}") from e
+def dar_alta_cama(hospital_id: str, numero_cama: str) -> dict:
+    """
+    Cambia el estado de una cama a 'en_limpieza' tras el alta del paciente.
+
+    1. Construir clave: cama:{hospital_id}:{numero_cama}
+    2. Hacer HSET para actualizar:
+         - estado -> "en_limpieza"
+         - paciente_id -> "" (vacío)
+         - fecha_egreso -> datetime.now(timezone.utc).isoformat()
+
+    Llamar a _get_redis(). Retornar {"mensaje": "...", "cama": numero_cama}.
+    """
+    raise NotImplementedError()
 
 
-def publicar_evento_exitoso(paciente_id, hospital_destino_id, especialidad_destino, medico_derivante_id, motivo):
-    try:
-        r = _get_redis()
-        evento = {
-            "tipo": "derivacion_exitosa",
-            "paciente_id": paciente_id,
-            "hospital_destino_id": hospital_destino_id,
-            "especialidad_destino": especialidad_destino,
-            "medico_derivante_id": medico_derivante_id,
-            "motivo": motivo,
-            "timestamp": datetime.now(timezone.utc).isoformat()
-        }
-        r.xadd("stream:derivaciones", evento)
-        return {"mensaje": "Evento publicado en stream:derivaciones"}
-    except ConnectionError:
-        raise
-    except Exception as e:
-        raise RuntimeError(f"Error al publicar evento en Redis Stream: {str(e)}") from e
+def obtener_ocupacion_tiempo_real(hospital_id: str) -> dict:
+    """
+    [OP-3] Devuelve métricas en tiempo real de ocupación de camas agrupadas por sector.
+
+    1. SCAN 0 MATCH cama:{hospital_id}:* para obtener todas las camas.
+    2. Para cada clave, HGETALL y extraer los campos "sector" y "estado".
+    3. Agrupar en memoria por sector:
+         - total: cantidad de camas en ese sector
+         - ocupadas: camas con estado "ocupada"
+         - disponibilidad: total - ocupadas
+    4. Calcular también un resumen global:
+         - total_camas, total_ocupadas, porcentaje_ocupacion.
+
+    Llamar a _get_redis(). Retornar {sectores: [...], resumen: {...}}.
+    """
+    raise NotImplementedError()
+
+
+# ──────────────────────────────────────────────
+# Cola de Urgencias (SORTED SET)
+# ──────────────────────────────────────────────
+
+def encolar_urgencia(hospital_id: str, paciente_id: str, nivel_urgencia: int, timestamp: float) -> dict:
+    """
+    [OP-2] Agrega un paciente a la cola de urgencias usando ZADD.
+
+    Clave: urgencias:{hospital_id}
+    Score: Se debe calcular como prioridad combinada:
+           score = (nivel_urgencia * 1000000) + (timestamp * -1)
+           Esto permite que mayor nivel_urgencia tenga mayor score,
+           y a igual nivel, el más antiguo (timestamp menor) tenga prioridad.
+
+    Miembro del sorted set: paciente_id (string).
+    Usar ZADD con el score calculado.
+
+    Llamar a _get_redis(). Retornar {"mensaje": "...", "paciente_id": paciente_id}.
+    """
+    raise NotImplementedError()
+
+
+def obtener_proximo_paciente(hospital_id: str) -> str | None:
+    """
+    [OP-2] Retorna el paciente con mayor prioridad sin sacarlo de la cola.
+
+    Clave: urgencias:{hospital_id}
+    Usar ZREVRANGE con start=0, end=0 para obtener el elemento con mayor score.
+    Si la cola está vacía, retornar None.
+
+    Llamar a _get_redis(). Retornar el paciente_id o None.
+    """
+    raise NotImplementedError()
+
+
+# ──────────────────────────────────────────────
+# Disponibilidad de Médicos (SET)
+# ──────────────────────────────────────────────
+
+def obtener_medicos_disponibles(especialidad: str) -> list:
+    """
+    [OP-2][OP-5] Retorna los médicos disponibles para una especialidad.
+
+    Clave: medicos:{especialidad}
+    Usar SMEMBERS para obtener todos los miembros del SET.
+
+    Cada miembro debe ser un JSON string con: {medico_id, nombre, activo}.
+    Retornar lista de diccionarios parseados desde JSON.
+
+    Llamar a _get_redis(). Retornar list[{medico_id, nombre, activo}].
+    """
+    raise NotImplementedError()
+
+
+# ──────────────────────────────────────────────
+# Caché de Historial (STRING con TTL)
+# ──────────────────────────────────────────────
+
+def obtener_cache_historial(paciente_id: str) -> dict | None:
+    """
+    Obtiene el historial del paciente desde la caché Redis.
+
+    Clave: historial:{paciente_id}
+    Usar GET para obtener el valor.
+    Si existe, parsear el JSON y retornar el dict.
+    Si no existe (None), retornar None (cache miss).
+
+    Llamar a _get_redis().
+    """
+    raise NotImplementedError()
+
+
+# ──────────────────────────────────────────────
+# Eventos Críticos (STREAM)
+# ──────────────────────────────────────────────
+
+def publicar_evento(hospital_id: str, tipo_evento: str, datos: dict) -> dict:
+    """
+    [OP-4][OP-5] Publica una alerta o evento de derivación en el stream de Redis.
+
+    Clave: eventos:{hospital_id}
+    Construir el mensaje combinando tipo_evento, datos, y un timestamp actual:
+      - tipo: tipo_evento
+      - datos: json.dumps(datos)
+      - timestamp: datetime.now(timezone.utc).isoformat()
+
+    Usar XADD para agregar la entrada al stream.
+    Retornar el ID de la entrada generada por Redis.
+
+    Llamar a _get_redis(). Retornar {"evento_id": entry_id, "mensaje": "..."}.
+    """
+    raise NotImplementedError()
