@@ -1,0 +1,6 @@
+fastapi==0.110.0
+uvicorn==0.28.0
+pymongo==4.6.2
+neo4j==5.18.0
+redis==5.0.3
+python-dotenv==1.0.1

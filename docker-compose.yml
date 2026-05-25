@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  # MongoDB: Historial clínico y turnos [cite: 98]
+  mongodb:
+    image: mongo:latest
+    container_name: hospital-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  # Neo4j: Red de derivaciones y contraindicaciones [cite: 98]
+  neo4j:
+    image: neo4j:latest
+    container_name: hospital-neo4j
+    ports:
+      - "7474:7474" # Interfaz Web (http://localhost:7474)
+      - "7687:7687" # Puerto del driver
+    environment:
+      - NEO4J_AUTH=neo4j/password123
+    volumes:
+      - neo4j_data:/data
+
+  # Redis Stack: Estado operativo en tiempo real [cite: 15, 98]
+  # Esta versión incluye 'Redis Insight' para ver los datos visualmente
+  redis:
+    image: redis/redis-stack:latest
+    container_name: hospital-redis
+    ports:
+      - "6379:6379" # Puerto de Redis
+      - "8001:8001" # Interfaz Web (http://localhost:8001)
+    volumes:
+      - redis_data:/data
+
+volumes:
+  mongo_data:
+  neo4j_data:
+  redis_data:
