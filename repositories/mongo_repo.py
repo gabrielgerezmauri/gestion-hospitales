@@ -184,46 +184,52 @@ def registrar_turno_urgencia(paciente_id: str, medico_id: str, especialidad: str
         raise RuntimeError(f"Error al registrar turno de urgencia en MongoDB: {str(e)}") from e
 
 """
-¿Por qué una doble agrupación ($group)? Pensalo así: si agrupas directamente por sector en los 30 días, te daría el total acumulado de pacientes de todo el mes, no el promedio por día.
-Al agrupar primero por {"sector", "dia"}, hacés que MongoDB consolide fotos diarias (ej: "El 24 de mayo en Guardia hubo 12 internados"). En la segunda agrupación, colapsás los días y promediás esos números de forma analítica.
+¿Por qué una doble agrupación ($group)? 
+Pensalo así: si agrupas directamente por sector en los 30 días, te daría el total acumulado de 
+derivaciones de todo el mes, no el promedio por día.
 
-Complejidad en SQL vs. NoSQL: Si tuvieras que hacer esto en SQL puro, requerirías hacer uso de subconsultas anidadas o subtablas temporales (WITH sector_diario AS (...) SELECT sector, AVG(...)). 
-En MongoDB, el framework de agregaciones te permite estructurarlo como una tubería lineal de datos (pipeline), haciendo que el código sea mucho más fácil de optimizar y mantener a largo plazo .
+Al agrupar primero por {"sector", "dia"} (usando especialidad_destino y fecha_derivacion), 
+hacés que MongoDB consolide fotos diarias (ej: "El 24 de mayo en Cardiología se recibieron 12 derivaciones"). 
+En la segunda agrupación, colapsás los días y promediás esos números de forma analítica.
+
+Complejidad en SQL vs. NoSQL: 
+Si tuvieras que hacer esto en SQL puro, requerirías hacer uso de subconsultas anidadas o 
+subtablas temporales (WITH sector_diario AS (...) SELECT sector, AVG(...)). 
+En MongoDB, el framework de agregaciones te permite estructurarlo como una tubería lineal de 
+datos (pipeline), haciendo que el código sea mucho más fácil de optimizar y mantener a largo plazo.
 """
 def obtener_ocupacion_historica(hospital_id: str) -> list:
     """
-    [OP-3] Calcula el promedio diario de ocupación por sector en los últimos 30 días
-    procesando la colección 'internaciones_historicas'.
+    [OP-3] Calcula el promedio diario de ocupación (derivaciones recibidas) 
+    por especialidad en los últimos 30 días procesando la colección 'derivaciones'.
     """
     try:
         db = _get_db()
         
-        # 1. Calculamos la fecha de corte (hace exactamente 30 días a partir de hoy)
+        # 1. Calculamos la fecha de corte (30 días atrás a partir de hoy)
         fecha_limite = datetime.now(timezone.utc) - timedelta(days=30)
 
         pipeline = [
-            # Paso 1: Filtramos por el hospital solicitado y registros de los últimos 30 días
+            # Paso 1: Filtramos las derivaciones destinadas a este hospital en los últimos 30 días
             {
                 "$match": {
-                    "hospital_id": hospital_id,
-                    "fecha": {"$gte": fecha_limite}
+                    "hospital_destino_id": hospital_id,
+                    "fecha_derivacion": {"$gte": fecha_limite}
                 }
             },
             
-            # Paso 2: Agrupamos primero por sector y por el día exacto (formato AAAA-MM-DD)
-            # Esto nos da cuántos pacientes hubo internados en CADA sector CADA uno de los días.
+            # Paso 2: Agrupamos por la especialidad de destino y por el día exacto (AAAA-MM-DD)
             {
                 "$group": {
                     "_id": {
-                        "sector": "$sector",
-                        "dia": { "$dateToString": { "format": "%Y-%m-%d", "date": "$fecha" } }
+                        "sector": "$especialidad_destino",
+                        "dia": { "$dateToString": { "format": "%Y-%m-%d", "date": "$fecha_derivacion" } }
                     },
                     "conteo_diario": { "$sum": 1 }
                 }
             },
             
-            # Paso 3: Agrupamos de nuevo, pero ahora puramente por Sector.
-            # Sacamos el promedio ($avg) de los conteos diarios que calculamos en el paso anterior.
+            # Paso 3: Agrupamos por sector para promediar los conteos diarios
             {
                 "$group": {
                     "_id": "$_id.sector",
@@ -231,7 +237,7 @@ def obtener_ocupacion_historica(hospital_id: str) -> list:
                 }
             },
             
-            # Paso 4: Proyectamos la salida prolija, renombrando _id a 'sector' y redondeando
+            # Paso 4: Proyectamos la salida prolija redondeando a 2 decimales
             {
                 "$project": {
                     "_id": 0,
@@ -240,20 +246,19 @@ def obtener_ocupacion_historica(hospital_id: str) -> list:
                 }
             },
             
-            # Paso 5: Ordenamos alfabéticamente por sector para que el dashboard sea legible
+            # Paso 5: Ordenamos alfabéticamente
             {
                 "$sort": { "sector": 1 }
             }
         ]
 
-        # Ejecutamos la agregación y devolvemos la lista analítica
-        resultado = list(db.internaciones_historicas.aggregate(pipeline))
+        resultado = list(db.derivaciones.aggregate(pipeline))
         return resultado
 
     except ConnectionError:
         raise
     except Exception as e:
-        raise RuntimeError(f"Error al calcular la ocupación histórica en MongoDB: {str(e)}")
+        raise RuntimeError(f"Error al calcular la ocupación histórica en MongoDB: {str(e)}") from e
 
 """
 El rol de Mongo en la consistencia eventual: Cuando se ejecuta la OP-5, intervienen los tres motores en cadena: Neo4j crea la relación, Redis valida las camas/médicos y vos guardás el histórico.

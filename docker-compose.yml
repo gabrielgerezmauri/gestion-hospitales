@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # MongoDB: Historial clínico y turnos [cite: 98]
+  # MongoDB: Historial clínico y turnos
   mongodb:
     image: mongo:latest
     container_name: hospital-mongodb
@@ -10,7 +10,7 @@ services:
     volumes:
       - mongo_data:/data/db
 
-  # Neo4j: Red de derivaciones y contraindicaciones [cite: 98]
+  # Neo4j: Red de derivaciones y contraindicaciones
   neo4j:
     image: neo4j:latest
     container_name: hospital-neo4j
@@ -22,7 +22,7 @@ services:
     volumes:
       - neo4j_data:/data
 
-  # Redis Stack: Estado operativo en tiempo real [cite: 15, 98]
+  # Redis Stack: Estado operativo en tiempo real
   # Esta versión incluye 'Redis Insight' para ver los datos visualmente
   redis:
     image: redis/redis-stack:latest
