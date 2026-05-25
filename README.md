@@ -53,4 +53,19 @@ python -m uvicorn main:app --reload
 La API se levantará en: http://localhost:8000
 
 Para ver el swagger y ejecutar los endpoints entrar a: http://localhost:8000/docs
+
+
+## 🏗️ Arquitectura del Sistema y Flujo Políglota
+
+El backend está desarrollado sobre **FastAPI** utilizando una **arquitectura en capas (Patrón Repositorio)**, aislando por completo la lógica de acceso a datos de los endpoints de la API.
+
+### 📁 Componentes Clave del Proyecto
+
+* **`config/database.py` (Capa de Conexión):** Se encarga del ciclo de vida de las conexiones. Centraliza la lectura de variables de entorno y expone las instancias globales `db_mongo`, `neo4j_driver` y `db_redis`. Cuenta con *Health Checks* y *timeouts* estrictos de 2 segundos para garantizar la tolerancia a fallos si un contenedor se cae.
+* **`repositories/` (Capa de Persistencia Aislada):** Cada motor NoSQL tiene su propio archivo e interfaz, permitiendo un desarrollo desacoplado y en paralelo:
+    * `mongo_repo.py`: Almacena documentos extensos y complejos (historial clínico y agregaciones analíticas de ocupación de los últimos 30 días).
+    * `redis_repo.py`: Gestiona estructuras de alta velocidad y tiempo real (Hashes para estado de camas, Sorted Sets para colas de prioridad de guardias y Streams para el log de eventos críticos).
+    * `neo4j_repo.py`: Resuelve consultas de relaciones complejas mediante Cypher (grafo de incompatibilidades de medicamentos y redes de derivación).
+* **`main.py` (Capa de Orquestación y Rutas):** Recibe las peticiones HTTP, extrae los parámetros y coordina los llamados a los distintos repositorios. Es el encargado de ensamblar las respuestas políglotas unificadas y de ejecutar las **transacciones compensatorias** ante fallos parciales para mantener la consistencia entre los motores.
+
 ```bash
